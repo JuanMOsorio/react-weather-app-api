@@ -24,7 +24,13 @@ h1 ,h2, h3, h4 {
   white-space: nowrap;
 }
 
-.width-card-forecast {
+.card-forecast {
   width: 18rem;
   display: inline-block;
+}
+
+.card-forecast:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(3,169,244,0.59);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(3,169,244,0.59);
+  box-shadow: 0px 0px 5px 0px rgba(3,169,244,0.59);
 }
