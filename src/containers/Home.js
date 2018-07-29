@@ -4,9 +4,9 @@ import Navbar from '../components/Navbar';
 import ForecastLocation from '../components/ForecastLocation';
 
 const Home = () => 
-  <div>
+  <React.Fragment>
     <Navbar />
     <ForecastLocation />
-  </div>;
+  </React.Fragment>;
 
 export default Home;
