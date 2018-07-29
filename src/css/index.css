@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary-dark {
+  background-color: #0288D1;
+}
+
+.forecats-container {
+  font-family: 'Roboto', sans-serif;
+  background-color: #03A9F4;
+  height: 10rem;
+  font-weight: bold;
+}
+
+h1 ,h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.height-content-card-forecas {
+  height: 19rem;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.width-card-forecast {
+  width: 18rem;
+  display: inline-block;
+}
