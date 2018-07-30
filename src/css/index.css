@@ -58,5 +58,11 @@ h1 ,h2, h3, h4 {
     display: table;
     margin-bottom: 1rem;
   }
+
+  .card-forecast:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
   
 }
