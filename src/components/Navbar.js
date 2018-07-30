@@ -3,7 +3,7 @@ import React from 'react';
 import '../css/index.css'
 
 const Navbar = () =>
-  <nav className="navbar navbar-expand-lg navbar-dark py-3 bg-primary-dark shadow-sm mb-5">
+  <nav className="navbar navbar-expand-lg navbar-dark py-3 bg-primary-dark shadow-sm mb-5 fixed-top">
     <div className="container">
       <a className="navbar-brand" href="#">WeatherApp</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
