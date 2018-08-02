@@ -3,10 +3,13 @@ const URL = "http://api.openweathermap.org/data/2.5/weather";
 
 class Api {
   async getForecast(city) {
-    const query = await fetch(`${URL}?q=${city}&appid=${KEY}`);
-    const data = await query.json();
-    return data;
-  }; 
+    const query = `${URL}?q=${city}&appid=${KEY}&units=metric`;
+    const data = fetch(query)
+    .then(forecast => forecast.json())
+    .then(data => data);
+    return data
+
+  }
 }
 
-export default new Api;
+export default new Api();

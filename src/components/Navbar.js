@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../css/index.css'
+import './index.css'
 
 const Navbar = () =>
   <nav className="navbar navbar-expand-lg navbar-dark py-3 bg-primary-dark shadow-sm mb-5 fixed-top">
