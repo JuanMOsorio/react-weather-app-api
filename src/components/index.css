@@ -1,7 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
+.loading{
+  width: 75%;
+  margin-top: 300px;
+}
 .bg-primary-dark {
   background-color: #0288D1;
 }

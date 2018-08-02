@@ -1,6 +1,7 @@
 import React from 'react';
 
 import API from '../utils/Api';
+import '../components/index.css'
 
 import Navbar from '../components/Navbar';
 import ForecastLocation from '../components/ForecastLocation';
@@ -20,14 +21,17 @@ class Home extends React.Component {
     console.log('this', this.state.data.main)
     return <React.Fragment>
       <Navbar />
-      <div className="container my-4 shadow mb-5 rounded">
+      {this.state.data?<div className="container my-4 shadow mb-5 rounded">
         <ForecastLocation 
           {...this.state.data.main} 
           {...this.state.data} 
           {...this.state.data.wind}
         />
         <ForecastCountry />
-      </div>
+      </div>: 
+      <div className="container" >
+        <h1 className="loading">Cargando...</h1>
+      </div>}
     </React.Fragment>;}
 }
 

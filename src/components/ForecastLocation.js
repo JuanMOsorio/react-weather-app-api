@@ -4,7 +4,7 @@ const ForecastLocation = ({ name, temp, humidity, speed }) =>
   <div className="forecats-container row text-white align-items-center rounded-top">
     <div className="col d-flex justify-content-center">
       <div className="row align-items-center">
-        <h3 className="pr-3">{ name }</h3>
+        <h1 className="pr-3">{ name }</h1>
         <div className="h1"> { temp }°</div>
       </div>
     </div>
@@ -17,6 +17,6 @@ const ForecastLocation = ({ name, temp, humidity, speed }) =>
         <p>Viento: { speed } m/s</p>
       </div>
     </div>
-  </div>
+  </div>;
   
 export default ForecastLocation;

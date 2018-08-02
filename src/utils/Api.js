@@ -6,7 +6,7 @@ class Api {
     const query = `${URL}?q=${city}&appid=${KEY}&units=metric`;
     const data = fetch(query)
     .then(forecast => forecast.json())
-    .then(data => data);
+    // .then(data => data);
     return data
 
   }
